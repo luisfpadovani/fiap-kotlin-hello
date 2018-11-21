@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ui.main.MainActivity">
+
+        <TextView
+            style="@style/label_titulo"
+            android:text="@string/label_dados_cliente" />
+
+        <TextView
+            android:id="@+id/tvNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            tools:text="Fulano da Silva" />
+
+        <TextView
+            style="@style/label_titulo"
+            android:text="@string/escolha" />
+
+        <LinearLayout style="@style/container_horizontal">
+
+            <CheckBox
+                android:id="@+id/cbAtum"
+                style="@style/checkbox_pizza"
+                android:text="@string/atum" />
+
+            <CheckBox
+                android:id="@+id/cbBacon"
+                style="@style/checkbox_pizza"
+                android:text="@string/bacon" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/container_horizontal">
+
+            <CheckBox
+                android:id="@+id/cbCalabresa"
+                style="@style/checkbox_pizza"
+                android:text="@string/calabresa" />
+
+            <CheckBox
+                android:id="@+id/cbMuzzarela"
+                style="@style/checkbox_pizza"
+                android:text="@string/muzzarela" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/label_titulo"
+            android:text="@string/tamanho_da_pizza" />
+
+        <RadioGroup
+            style="@style/margem_lateral"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pequena" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/media" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/grande" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/label_titulo"
+            android:text="@string/pagamento" />
+
+        <Spinner
+            style="@style/margem_lateral"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/formas_pagamento" />
+
+        <Button
+            android:id="@+id/btCalcular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botao_personalizado"
+            android:text="@string/calcular"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+</ScrollView>

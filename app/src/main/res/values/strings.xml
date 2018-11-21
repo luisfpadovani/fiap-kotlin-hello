@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">HelloAndroid</string>
+    <string name="label_dados_cliente">Dados do Cliente</string>
+    <string name="nome_do_cliente">Nome do Cliente</string>
+    <string name="escolha">Escolha a(s) Pizza(s)</string>
+    <string name="atum">Atum</string>
+    <string name="bacon">Bacon</string>
+    <string name="muzzarela">Muzzarela</string>
+    <string name="calabresa">Calabresa</string>
+    <string name="tamanho_da_pizza">Tamanho da Pizza</string>
+    <string name="pequena">Pequena</string>
+    <string name="media">Média</string>
+    <string name="grande">Grande</string>
+    <string name="pagamento">Pagamento</string>
+
+    <string name="credito">Crédito</string>
+    <string name="debito">Débito</string>
+    <string name="vr">Vale Refeição</string>
+    <string name="fiado">Fiado</string>
+    <string name="cupom">Cupom</string>
+    <string name="calcular">Calcular</string>
+
+    <string name="saudacao">Olá %1$s Vamos ligar para o número %2$s</string>
+</resources>
